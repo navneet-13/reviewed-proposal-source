@@ -1,0 +1,463 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{28}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{{agent-matrix}}{{agent-matrix}}{2026}]%
+        {matrixcontext}
+\bibfield{author}{\bibinfo{person}{{agent-matrix}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Matrix Context: Mixture-of-Contexts Retrieval
+  ({MoC-RAG})}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/agent-matrix/matrix-context}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bala}{Bala}{2026}]%
+        {bala2026recall}
+\bibfield{author}{\bibinfo{person}{Ananto~Nayan Bala}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{What Survives Into Context: A Diagnostic for
+  Budget-Constrained Multi-Hop RAG and When Submodular Evidence Packing
+  Improves It}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2607.00725}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2607.00725}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Beijing Academy of Artificial
+  Intelligence}}{{Beijing Academy of Artificial Intelligence}}{[n.d.]}]%
+        {bgererankercard}
+\bibfield{author}{\bibinfo{person}{{Beijing Academy of Artificial
+  Intelligence}}.} \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{{BAAI}/bge-reranker-v2-m3: Model Card}.
+\newblock \bibinfo{howpublished}{Hugging Face}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/BAAI/bge-reranker-v2-m3}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed September 30, 2026.}
+
+
+\bibitem[\protect\citeauthoryear{Bruch, Gai, and Ingber}{Bruch
+  et~al\mbox{.}}{2023}]%
+        {bruch2023fusion}
+\bibfield{author}{\bibinfo{person}{Sebastian Bruch}, \bibinfo{person}{Siyu
+  Gai}, {and} \bibinfo{person}{Amir Ingber}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{An Analysis of Fusion Functions for Hybrid
+  Retrieval}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Information Systems}}
+  \bibinfo{volume}{42}, \bibinfo{number}{1} (\bibinfo{year}{2023}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3596512}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Carbonell and Goldstein}{Carbonell and
+  Goldstein}{1998}]%
+        {carbonell1998mmr}
+\bibfield{author}{\bibinfo{person}{Jaime Carbonell} {and} \bibinfo{person}{Jade
+  Goldstein}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{The Use of {MMR}, Diversity-Based Reranking for
+  Reordering Documents and Producing Summaries}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 21st Annual International ACM
+  SIGIR Conference on Research and Development in Information Retrieval}}.
+  \bibinfo{pages}{335--336}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cormack, Clarke, and Buettcher}{Cormack
+  et~al\mbox{.}}{2009}]%
+        {cormack2009rrf}
+\bibfield{author}{\bibinfo{person}{Gordon~V. Cormack}, \bibinfo{person}{Charles
+  L.~A. Clarke}, {and} \bibinfo{person}{Stefan Buettcher}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Reciprocal Rank Fusion Outperforms Condorcet and
+  Individual Rank Learning Methods}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 32nd International ACM SIGIR Conference on Research and Development in
+  Information Retrieval}}. \bibinfo{pages}{758--759}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dasigi, Lo, Beltagy, Cohan, Smith, and
+  Gardner}{Dasigi et~al\mbox{.}}{2021}]%
+        {dasigi2021qasper}
+\bibfield{author}{\bibinfo{person}{Pradeep Dasigi}, \bibinfo{person}{Kyle Lo},
+  \bibinfo{person}{Iz Beltagy}, \bibinfo{person}{Arman Cohan},
+  \bibinfo{person}{Noah~A. Smith}, {and} \bibinfo{person}{Matt Gardner}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A Dataset of Information-Seeking Questions and
+  Answers Anchored in Research Papers}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 Conference of the North
+  American Chapter of the Association for Computational Linguistics: Human
+  Language Technologies (NAACL)}}. \bibinfo{pages}{4599--4610}.
+\newblock
+\urldef\tempurl%
+\url{https://aclanthology.org/2021.naacl-main.365/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Efron and Tibshirani}{Efron and
+  Tibshirani}{1993}]%
+        {efron1993bootstrap}
+\bibfield{author}{\bibinfo{person}{Bradley Efron} {and}
+  \bibinfo{person}{Robert~J. Tibshirani}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{An Introduction to the Bootstrap}}.
+\newblock \bibinfo{publisher}{Chapman \& Hall}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jiang, Ma, and Chen}{Jiang
+  et~al\mbox{.}}{2024}]%
+        {jiang2024longrag}
+\bibfield{author}{\bibinfo{person}{Ziyan Jiang}, \bibinfo{person}{Xueguang Ma},
+  {and} \bibinfo{person}{Wenhu Chen}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{LongRAG}: Enhancing Retrieval-Augmented Generation
+  with Long-context {LLMs}}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2406.15319}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2406.15319}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Karpukhin, O{\u{g}}uz, Min, Lewis, Wu, Edunov,
+  Chen, and Yih}{Karpukhin et~al\mbox{.}}{2020}]%
+        {karpukhin2020dpr}
+\bibfield{author}{\bibinfo{person}{Vladimir Karpukhin}, \bibinfo{person}{Barlas
+  O{\u{g}}uz}, \bibinfo{person}{Sewon Min}, \bibinfo{person}{Patrick Lewis},
+  \bibinfo{person}{Ledell Wu}, \bibinfo{person}{Sergey Edunov},
+  \bibinfo{person}{Danqi Chen}, {and} \bibinfo{person}{Wen-tau Yih}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Dense Passage Retrieval for Open-Domain Question
+  Answering}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020 Conference
+  on Empirical Methods in Natural Language Processing (EMNLP)}}.
+  \bibinfo{pages}{6769--6781}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kim and Yang}{Kim and Yang}{2026}]%
+        {kim2026evidence}
+\bibfield{author}{\bibinfo{person}{Seowan Kim} {and} \bibinfo{person}{Jinhong
+  Yang}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Evidence Retention Is Not Sufficient for
+  Answerability: A Diagnostic Study of Context Budgeting for Small Language
+  Model {RAG}}. In \bibinfo{booktitle}{\emph{Proceedings of the 14th
+  International Conference on Advances in Information Technology (IAIT '26)}}.
+  \bibinfo{publisher}{ACM}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3816713.3819786}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kwon, Li, Zhuang, Sheng, Zheng, Yu, Gonzalez,
+  Zhang, and Stoica}{Kwon et~al\mbox{.}}{2023}]%
+        {kwon2023vllm}
+\bibfield{author}{\bibinfo{person}{Woosuk Kwon}, \bibinfo{person}{Zhuohan Li},
+  \bibinfo{person}{Siyuan Zhuang}, \bibinfo{person}{Ying Sheng},
+  \bibinfo{person}{Lianmin Zheng}, \bibinfo{person}{Cody~Hao Yu},
+  \bibinfo{person}{Joseph~E. Gonzalez}, \bibinfo{person}{Hao Zhang}, {and}
+  \bibinfo{person}{Ion Stoica}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Efficient Memory Management for Large Language
+  Model Serving with {PagedAttention}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 29th ACM Symposium on Operating
+  Systems Principles (SOSP)}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Langlois}{Langlois}{2026}]%
+        {langlois2026scar}
+\bibfield{author}{\bibinfo{person}{Nathana{\"e}l Langlois}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{SCAR}: Semantic Continuity-Aware Retrieval for
+  Efficient Context Expansion in {RAG}}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2606.16661}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2606.16661}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lewis, Perez, Piktus, Petroni, Karpukhin,
+  Goyal, K{\"u}ttler, Lewis, Yih, Rockt{\"a}schel, Riedel, and Kiela}{Lewis
+  et~al\mbox{.}}{2020}]%
+        {lewis2020rag}
+\bibfield{author}{\bibinfo{person}{Patrick Lewis}, \bibinfo{person}{Ethan
+  Perez}, \bibinfo{person}{Aleksandra Piktus}, \bibinfo{person}{Fabio Petroni},
+  \bibinfo{person}{Vladimir Karpukhin}, \bibinfo{person}{Naman Goyal},
+  \bibinfo{person}{Heinrich K{\"u}ttler}, \bibinfo{person}{Mike Lewis},
+  \bibinfo{person}{Wen-tau Yih}, \bibinfo{person}{Tim Rockt{\"a}schel},
+  \bibinfo{person}{Sebastian Riedel}, {and} \bibinfo{person}{Douwe Kiela}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Retrieval-Augmented Generation for
+  Knowledge-Intensive {NLP} Tasks}. In \bibinfo{booktitle}{\emph{Advances in
+  Neural Information Processing Systems (NeurIPS)}}, Vol.~\bibinfo{volume}{33}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{LlamaIndex}}{{LlamaIndex}}{2026}]%
+        {llamaindexautomerge}
+\bibfield{author}{\bibinfo{person}{{LlamaIndex}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Auto Merging Retriever}.
+\newblock \bibinfo{howpublished}{LlamaIndex documentation, accessed September
+  2026}.
+\newblock
+\urldef\tempurl%
+\url{https://developers.llamaindex.ai/python/framework/integrations/retrievers/auto_merging_retriever/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nogueira and Cho}{Nogueira and Cho}{2019}]%
+        {nogueira2019bert}
+\bibfield{author}{\bibinfo{person}{Rodrigo Nogueira} {and}
+  \bibinfo{person}{Kyunghyun Cho}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Passage Re-ranking with {BERT}}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:1901.04085}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/1901.04085}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Peng, Wang, Long, and Sheng}{Peng
+  et~al\mbox{.}}{2025}]%
+        {peng2025adagres}
+\bibfield{author}{\bibinfo{person}{Chao Peng}, \bibinfo{person}{Bin Wang},
+  \bibinfo{person}{Zhilei Long}, {and} \bibinfo{person}{Jinfang Sheng}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{AdaGReS}: Adaptive Greedy Context Selection via
+  Redundancy-Aware Scoring for Token-Budgeted {RAG}}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2512.25052}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2512.25052}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pereira, Fidalgo, Lotufo, and
+  Nogueira}{Pereira et~al\mbox{.}}{2023}]%
+        {pereira2023visconde}
+\bibfield{author}{\bibinfo{person}{Jayr Pereira}, \bibinfo{person}{Robson
+  Fidalgo}, \bibinfo{person}{Roberto Lotufo}, {and} \bibinfo{person}{Rodrigo
+  Nogueira}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Visconde: Multi-document {QA} with {GPT-3} and
+  Neural Reranking}. In \bibinfo{booktitle}{\emph{Advances in Information
+  Retrieval (ECIR)}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2212.09656}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Qwen Team}, Yang, Yang, Zhang, Hui,
+  et~al\mbox{.}}{{Qwen Team} et~al\mbox{.}}{2024}]%
+        {qwen25}
+\bibfield{author}{\bibinfo{person}{{Qwen Team}}, \bibinfo{person}{An Yang},
+  \bibinfo{person}{Baosong Yang}, \bibinfo{person}{Beichen Zhang},
+  \bibinfo{person}{Binyuan Hui}, {et~al\mbox{.}}}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{{Qwen2.5} Technical Report}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2412.15115}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2412.15115}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Reimers and Gurevych}{Reimers and
+  Gurevych}{2019}]%
+        {reimers2019sbert}
+\bibfield{author}{\bibinfo{person}{Nils Reimers} {and} \bibinfo{person}{Iryna
+  Gurevych}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Sentence-{BERT}: Sentence Embeddings using
+  {S}iamese {BERT}-Networks}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  2019 Conference on Empirical Methods in Natural Language Processing
+  (EMNLP-IJCNLP)}}. \bibinfo{pages}{3982--3992}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Robertson and Zaragoza}{Robertson and
+  Zaragoza}{2009}]%
+        {robertson2009bm25}
+\bibfield{author}{\bibinfo{person}{Stephen Robertson} {and}
+  \bibinfo{person}{Hugo Zaragoza}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{The Probabilistic Relevance Framework: {BM25} and
+  Beyond}.
+\newblock \bibinfo{journal}{\emph{Foundations and Trends in Information
+  Retrieval}} \bibinfo{volume}{3}, \bibinfo{number}{4} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{333--389}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sarthi, Abdullah, Tuli, Khanna, Goldie, and
+  Manning}{Sarthi et~al\mbox{.}}{2024}]%
+        {sarthi2024raptor}
+\bibfield{author}{\bibinfo{person}{Parth Sarthi}, \bibinfo{person}{Salman
+  Abdullah}, \bibinfo{person}{Aditi Tuli}, \bibinfo{person}{Shubh Khanna},
+  \bibinfo{person}{Anna Goldie}, {and} \bibinfo{person}{Christopher~D.
+  Manning}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{RAPTOR}: Recursive Abstractive Processing for
+  Tree-Organized Retrieval}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations (ICLR)}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2401.18059}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Sentence Transformers}}{{Sentence
+  Transformers}}{[n.d.]}]%
+        {minilmcard}
+\bibfield{author}{\bibinfo{person}{{Sentence Transformers}}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{sentence-transformers/all-MiniLM-L6-v2: Model Card}.
+\newblock \bibinfo{howpublished}{Hugging Face}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed September 30, 2026.}
+
+
+\bibitem[\protect\citeauthoryear{Singh, Reddy, and Chopra}{Singh
+  et~al\mbox{.}}{2026}]%
+        {singh2026beyond}
+\bibfield{author}{\bibinfo{person}{Sadanand Singh}, \bibinfo{person}{Allam
+  Reddy}, {and} \bibinfo{person}{Manan Chopra}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Beyond the Reranker: Do {RAG} Retrieval Enhancements
+  Help Once a Strong Reranker Is Present?}
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2606.28367}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2606.28367}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Trivedi, Balasubramanian, Khot, and
+  Sabharwal}{Trivedi et~al\mbox{.}}{2022}]%
+        {trivedi2022musique}
+\bibfield{author}{\bibinfo{person}{Harsh Trivedi}, \bibinfo{person}{Niranjan
+  Balasubramanian}, \bibinfo{person}{Tushar Khot}, {and}
+  \bibinfo{person}{Ashish Sabharwal}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{{MuSiQue}: Multihop Questions via Single-hop
+  Question Composition}.
+\newblock \bibinfo{journal}{\emph{Transactions of the Association for
+  Computational Linguistics}}  \bibinfo{volume}{10} (\bibinfo{year}{2022}),
+  \bibinfo{pages}{539--554}.
+\newblock
+\urldef\tempurl%
+\url{https://aclanthology.org/2022.tacl-1.31/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wang, Zhuang, and Zuccon}{Wang
+  et~al\mbox{.}}{2021}]%
+        {wang2021interpolate}
+\bibfield{author}{\bibinfo{person}{Shuai Wang}, \bibinfo{person}{Shengyao
+  Zhuang}, {and} \bibinfo{person}{Guido Zuccon}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{BERT}-based Dense Retrievers Require Interpolation
+  with {BM25} for Effective Passage Retrieval}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM SIGIR International
+  Conference on Theory of Information Retrieval (ICTIR)}}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3471158.3472233}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Yu, Wang, Liu, and Wang}{Yu
+  et~al\mbox{.}}{2026}]%
+        {yu2026sfrag}
+\bibfield{author}{\bibinfo{person}{Rui Yu}, \bibinfo{person}{Tianyi Wang},
+  \bibinfo{person}{Ruixia Liu}, {and} \bibinfo{person}{Yinglong Wang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{SF-RAG}: Structure-Fidelity Retrieval-Augmented
+  Generation for Academic Question Answering}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2602.13647}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2602.13647}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Zhong, Shi, Wei, Shen, Zhou, and Wu}{Zhong
+  et~al\mbox{.}}{2026}]%
+        {zhong2026vectree}
+\bibfield{author}{\bibinfo{person}{Xinyan Zhong}, \bibinfo{person}{Yuwei Shi},
+  \bibinfo{person}{Yuqi Wei}, \bibinfo{person}{Chen Shen},
+  \bibinfo{person}{Tianhang Zhou}, {and} \bibinfo{person}{Zhenghao Wu}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{VecTree-RAG}: An Agentic Retrieval-Augmented
+  Generation Framework Combining Vector and Tree Retrieval for Efficiency and
+  Accuracy}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2607.23006}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2607.23006}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}

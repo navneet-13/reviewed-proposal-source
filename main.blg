@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: ref.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty year in bgererankercard
+Warning--page numbers missing in both pages and numpages fields in bruch2023fusion
+Warning--empty publisher in carbonell1998mmr
+Warning--empty address in carbonell1998mmr
+Warning--empty publisher in cormack2009rrf
+Warning--empty address in cormack2009rrf
+Warning--empty publisher in dasigi2021qasper
+Warning--empty address in dasigi2021qasper
+Warning--empty address in efron1993bootstrap
+Warning--empty publisher in karpukhin2020dpr
+Warning--empty address in karpukhin2020dpr
+Warning--empty address in kim2026evidence
+Warning--page numbers missing in both pages and numpages fields in kim2026evidence
+Warning--empty publisher in kwon2023vllm
+Warning--empty address in kwon2023vllm
+Warning--page numbers missing in both pages and numpages fields in kwon2023vllm
+Warning--empty publisher in lewis2020rag
+Warning--empty address in lewis2020rag
+Warning--page numbers missing in both pages and numpages fields in lewis2020rag
+Warning--empty publisher in pereira2023visconde
+Warning--empty address in pereira2023visconde
+Warning--page numbers missing in both pages and numpages fields in pereira2023visconde
+Warning--empty publisher in reimers2019sbert
+Warning--empty address in reimers2019sbert
+Warning--empty publisher in sarthi2024raptor
+Warning--empty address in sarthi2024raptor
+Warning--page numbers missing in both pages and numpages fields in sarthi2024raptor
+Warning--empty year in minilmcard
+Warning--empty publisher in wang2021interpolate
+Warning--empty address in wang2021interpolate
+Warning--page numbers missing in both pages and numpages fields in wang2021interpolate
+You've used 28 entries,
+            5901 wiz_defined-function locations,
+            1471 strings with 21173 characters,
+and the built_in function-call counts, 30398 in all, are:
+= -- 3239
+> -- 1400
+< -- 0
++ -- 470
+- -- 480
+* -- 2316
+:= -- 3400
+add.period$ -- 138
+call.type$ -- 28
+change.case$ -- 213
+chr.to.int$ -- 28
+cite$ -- 59
+duplicate$ -- 2594
+empty$ -- 1827
+format.name$ -- 568
+if$ -- 6802
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 69
+newline$ -- 334
+num.names$ -- 224
+pop$ -- 1048
+preamble$ -- 1
+purify$ -- 453
+quote$ -- 0
+skip$ -- 961
+stack$ -- 0
+substring$ -- 1952
+swap$ -- 216
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 783
+warning$ -- 31
+while$ -- 181
+width$ -- 0
+write$ -- 580
+(There were 31 warnings)
